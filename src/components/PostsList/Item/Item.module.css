@@ -1,0 +1,11 @@
+.container {
+  background-color: #973711;
+  color: #fff;
+  width: 45%;
+  height: 10rem;
+  padding: 1rem;
+}
+
+.name {
+  color: rgb(83, 218, 83);
+}

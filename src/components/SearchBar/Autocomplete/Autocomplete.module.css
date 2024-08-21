@@ -1,0 +1,29 @@
+.autocomplete {
+  position: absolute;
+  top: 4rem;
+  left: -50%;
+  width: 200%;
+  max-height: 20rem;
+  border-radius: 1rem;
+  padding: 1rem;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.autocompleteList {
+  max-height: 20rem;
+  overflow-y: scroll;
+}
+.listItem {
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+}
+
+.listItem:hover {
+  background-color: #973711;
+  color: #fff;
+}
+
+.hidden {
+  display: none;
+}

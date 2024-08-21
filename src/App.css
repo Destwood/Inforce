@@ -1,0 +1,12 @@
+.wrapper {
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem;
+  min-height: 100vh;
+}
+
+body {
+  cursor: none;
+}

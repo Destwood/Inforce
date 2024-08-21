@@ -1,0 +1,26 @@
+.listContainer {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+.pagination {
+  width: fit-content;
+  margin: auto;
+  display: flex;
+  gap: 1rem;
+}
+
+.pagination button {
+  display: block;
+  min-width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+}
+
+.active {
+  background-color: #506781;
+  color: #000;
+}

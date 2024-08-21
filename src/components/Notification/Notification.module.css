@@ -1,0 +1,10 @@
+.notification {
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  color: #ffffff;
+  font-size: 1rem;
+}
+.specialText {
+  color: #973711;
+}
