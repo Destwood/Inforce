@@ -1,4 +1,3 @@
-// SearchBar.tsx
 import React, { useState, useEffect } from "react";
 import style from "./SearchBar.module.css";
 import "./style.css";
@@ -44,7 +43,6 @@ function SearchBar({ onSearch }: SearchBarProps) {
   };
 
   const handleSuggestionClick = (suggestion: string) => {
-    // Тільки оновлюємо запит, без виклику onSearch
     setQuery(suggestion);
     setShowSuggestions(false);
   };
@@ -56,7 +54,7 @@ function SearchBar({ onSearch }: SearchBarProps) {
   };
 
   const handleBlur = () => {
-    setTimeout(() => setShowSuggestions(false), 200); // Додаємо затримку
+    setTimeout(() => setShowSuggestions(false), 200);
   };
 
   return (

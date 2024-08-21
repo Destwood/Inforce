@@ -1,9 +1,7 @@
-// App.tsx
-import React, { useState } from "react";
+import { useState } from "react";
 import "./App.css";
 import PostsList from "./components/PostsList/PostsList";
 import SearchBar from "./components/SearchBar/SearchBar";
-import Cursor from "./components/Cursor/Cursor";
 import Notification from "./components/Notification/Notification";
 
 function App() {
@@ -13,14 +11,14 @@ function App() {
   const handleSearch = (searchQuery: string) => {
     setLastSearch(searchQuery);
     setShowNotification(true);
-    setTimeout(() => setShowNotification(false), 5000); // Показывать уведомление 5 секунд
+    setTimeout(() => setShowNotification(false), 5000);
   };
 
   return (
     <div className="wrapper">
       <SearchBar onSearch={handleSearch} />
       <PostsList searchQuery={lastSearch} />
-      <Cursor />
+
       {showNotification && <Notification text={lastSearch} />}
     </div>
   );

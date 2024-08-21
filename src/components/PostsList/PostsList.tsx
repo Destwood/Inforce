@@ -1,4 +1,3 @@
-// PostsList.tsx
 import React, { useState } from "react";
 import style from "./PostsList.module.css";
 import data from "../../data/data.json";
